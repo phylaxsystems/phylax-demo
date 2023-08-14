@@ -1,0 +1,6 @@
+[profile.default]
+lib = ["lib"]
+remappings = ["forge-std/=lib/forge-std/src/"]
+script = "./"
+[rpc_endpoints]
+sepolia = "http://127.0.0.1:8545"
