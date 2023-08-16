@@ -22,7 +22,6 @@
             "runs": 20000
           },
           "metadata": {
-            "useLiteralContent": false,
             "bytecodeHash": "ipfs",
             "appendCBOR": true
           },
@@ -63,7 +62,6 @@
             "runs": 20000
           },
           "metadata": {
-            "useLiteralContent": false,
             "bytecodeHash": "ipfs",
             "appendCBOR": true
           },
@@ -113,7 +111,6 @@
             "runs": 20000
           },
           "metadata": {
-            "useLiteralContent": false,
             "bytecodeHash": "ipfs",
             "appendCBOR": true
           },
@@ -157,7 +154,6 @@
             "runs": 20000
           },
           "metadata": {
-            "useLiteralContent": false,
             "bytecodeHash": "ipfs",
             "appendCBOR": true
           },
@@ -200,7 +196,6 @@
             "runs": 20000
           },
           "metadata": {
-            "useLiteralContent": false,
             "bytecodeHash": "ipfs",
             "appendCBOR": true
           },
@@ -247,7 +242,6 @@
             "runs": 20000
           },
           "metadata": {
-            "useLiteralContent": false,
             "bytecodeHash": "ipfs",
             "appendCBOR": true
           },
@@ -288,7 +282,6 @@
             "runs": 20000
           },
           "metadata": {
-            "useLiteralContent": false,
             "bytecodeHash": "ipfs",
             "appendCBOR": true
           },
@@ -329,7 +322,6 @@
             "runs": 20000
           },
           "metadata": {
-            "useLiteralContent": false,
             "bytecodeHash": "ipfs",
             "appendCBOR": true
           },
@@ -372,7 +364,6 @@
             "runs": 20000
           },
           "metadata": {
-            "useLiteralContent": false,
             "bytecodeHash": "ipfs",
             "appendCBOR": true
           },
@@ -413,7 +404,6 @@
             "runs": 20000
           },
           "metadata": {
-            "useLiteralContent": false,
             "bytecodeHash": "ipfs",
             "appendCBOR": true
           },
@@ -459,7 +449,6 @@
             "runs": 20000
           },
           "metadata": {
-            "useLiteralContent": false,
             "bytecodeHash": "ipfs",
             "appendCBOR": true
           },
@@ -502,7 +491,6 @@
             "runs": 20000
           },
           "metadata": {
-            "useLiteralContent": false,
             "bytecodeHash": "ipfs",
             "appendCBOR": true
           },
@@ -546,7 +534,6 @@
             "runs": 20000
           },
           "metadata": {
-            "useLiteralContent": false,
             "bytecodeHash": "ipfs",
             "appendCBOR": true
           },
@@ -605,7 +592,6 @@
             "runs": 20000
           },
           "metadata": {
-            "useLiteralContent": false,
             "bytecodeHash": "ipfs",
             "appendCBOR": true
           },
@@ -649,7 +635,6 @@
             "runs": 20000
           },
           "metadata": {
-            "useLiteralContent": false,
             "bytecodeHash": "ipfs",
             "appendCBOR": true
           },
@@ -690,7 +675,6 @@
             "runs": 20000
           },
           "metadata": {
-            "useLiteralContent": false,
             "bytecodeHash": "ipfs",
             "appendCBOR": true
           },
@@ -731,7 +715,6 @@
             "runs": 20000
           },
           "metadata": {
-            "useLiteralContent": false,
             "bytecodeHash": "ipfs",
             "appendCBOR": true
           },
@@ -772,7 +755,6 @@
             "runs": 20000
           },
           "metadata": {
-            "useLiteralContent": false,
             "bytecodeHash": "ipfs",
             "appendCBOR": true
           },
@@ -813,7 +795,6 @@
             "runs": 20000
           },
           "metadata": {
-            "useLiteralContent": false,
             "bytecodeHash": "ipfs",
             "appendCBOR": true
           },
