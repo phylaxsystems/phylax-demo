@@ -6,22 +6,22 @@ api:
 alerts:
   - name: protocol-alert
     on:
-      - origin: sepolia
-        eventId: new_block
+      - rule: 'type == "new_block"'
+        interval: 1
+    foundryProjectRootPath: testdata/demo/alerts
+  - name: protocol-alert2
+    on:
+      - rule: 'origin == hash "sepolia"'
         interval: 1
     foundryProjectRootPath: testdata/demo/alerts
 watchers:
   - name: sepolia
     chain: sepolia
-    ethRpc: https://eth-sepolia.g.alchemy.com/v2/$PH_RPC_SEPOLIA
+    ethRpc: "$PH_RPC_SEPOLIA"
 actions:
   - name: kill-protocol
     on:
-      - origin: protocol-alert
-        eventId: alert_firing
-        interval: 1
-      - origin: api
-        eventId: activate_task
+      - rule: "type == \"alert_execution\" && alert_state == \"on\""
         interval: 1
     contractName: KillProtocol
     contractFilename: KillProtocol.s.sol
@@ -30,11 +30,7 @@ actions:
   - name: simple-webhook
     exposed: true
     on:
-      - origin: dai-saving
-        eventId: alert_firing
-        interval: 1
-      - origin: api
-        eventId: activate_task
+      - rule: "type == \"alert_execution\" && alert_state == \"on\""
         interval: 1
     target: "https://api.telegram.org/bot6350756658:AAFOYiS7DePRv0lAvhc0t1T1Oz1GMIJUPeY/sendMessage?chat_id=1699667821&text=alert%20is%20firing"
     payload: '{"foo": "bar", "bar": 1}'
