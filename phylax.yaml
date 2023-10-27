@@ -9,11 +9,6 @@ alerts:
       - rule: 'type == "new_block"'
         interval: 1
     foundryProjectRootPath: ./alerts
-  - name: protocol-alert2
-    on:
-      - rule: 'origin == hash "sepolia"'
-        interval: 1
-    foundryProjectRootPath: ./alerts
 watchers:
   - name: sepolia
     chain: sepolia
@@ -26,7 +21,7 @@ actions:
     contractName: KillProtocol
     contractFilename: KillProtocol.s.sol
     wallet: 0x0a0ac2ddf4f164d151f048c4d23bead4444de206e738ee0bb664b4678ae13362
-    foundryProjectRootPath: actions/kill-protocol
+    foundryProjectRootPath: ./actions/kill-protocol
   - name: simple-webhook
     exposed: true
     on:
