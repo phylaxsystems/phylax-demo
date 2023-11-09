@@ -1,0 +1,8 @@
+[profile.default]
+optimizer = true
+optimizer_runs = 20_000
+
+test = "./test"
+
+[rpc_endpoints]
+sepolia = "${PH_RPC_SEPOLIA_FULL}"
