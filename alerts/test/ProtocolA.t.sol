@@ -7,19 +7,23 @@ contract ProtocolTest is Test {
     Protocol protocol;
 
     function setUp() public {
-        string memory url = vm.rpcUrl("sepolia");
-        uint256 id = vm.createFork(url);
-        protocol = Protocol(protocol_address);
-        vm.selectFork(id);
+        protocol = new Protocol();
     }
 
-    function test_isTestVarOk() public {
-        assertEq(protocol.test(), 1);
+    function test_protocolA() public {
+        uint256 a = protocol.get_test();
+        vm.export("protocol.a", vm.toString(a));
+        assert(a < 1000000000);
     }
 }
 
 contract Protocol {
-    uint256 public test;
+    uint256 internal test;
+
+    function get_test() public returns (uint256) {
+        test += 1;
+        return test;
+    }
 
     function set_test(uint256 a) public {
         test = a;

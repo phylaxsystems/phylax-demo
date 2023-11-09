@@ -11,7 +11,7 @@
     "linkReferences": {}
   },
   "methodIdentifiers": {},
-  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.13+commit.abaa5c0e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"lib/forge-std/src/StdUtils.sol\":\"StdUtils\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":20000},\"remappings\":[\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":forge-std/=lib/forge-std/src/\"]},\"sources\":{\"lib/forge-std/src/StdUtils.sol\":{\"keccak256\":\"0x8758c42ba9d9e46868b796e2330ac239006ede07bd438a4b36dd6f2c47d27dc1\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://11f5752e0187b1e3631b875efdbe05d45929d05f1c1717105a9115d0a6628140\",\"dweb:/ipfs/QmUKkx9jfsUvjyYBw45RvrW1hTFXDXi2Jv5tbHP86mnzpi\"]},\"lib/forge-std/src/Vm.sol\":{\"keccak256\":\"0xb569d0b4398fad95f508fb854e832143edf69a897af4250f5f60fe195a2066c5\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://84b722ada97ea7bb841cdc0fa556aa36a02ff2d380fa24f6dc0717a71c6d9c7c\",\"dweb:/ipfs/QmfCH9Q4tvJhPM286GFsE4UCP4YncLpRu4Nwa2ZkHdRfbw\"]},\"lib/forge-std/src/interfaces/IMulticall3.sol\":{\"keccak256\":\"0x7aac1389150499a922d1f9ef5749c908cef127cb2075b92fa17e9cb611263d0a\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://d95ebb7c7c463e08ebc12dab639945752fb2480acfc6e86da32f72732a7fd0c0\",\"dweb:/ipfs/QmNXK8P8oPWwajsQHvAHw3JPyQidPLCGQN3hWu1Lk6PBL2\"]}},\"version\":1}",
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.13+commit.abaa5c0e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"lib/forge-std/src/StdUtils.sol\":\"StdUtils\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":20000},\"remappings\":[\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":forge-std/=lib/forge-std/src/\"]},\"sources\":{\"lib/forge-std/src/StdUtils.sol\":{\"keccak256\":\"0x8758c42ba9d9e46868b796e2330ac239006ede07bd438a4b36dd6f2c47d27dc1\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://11f5752e0187b1e3631b875efdbe05d45929d05f1c1717105a9115d0a6628140\",\"dweb:/ipfs/QmUKkx9jfsUvjyYBw45RvrW1hTFXDXi2Jv5tbHP86mnzpi\"]},\"lib/forge-std/src/Vm.sol\":{\"keccak256\":\"0x0cb3f85f3c1927ef347024565bfa008a893d2cfec02ac3a3b69da60b7873055f\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://46f13a70441c2f82a87c46cc310cb5ff9d43858ed01ec160c4ca446d813141bd\",\"dweb:/ipfs/QmYowvnVsaKzpDzNxFLjpUcRK7tLKaxFicqWK2jE4X7VaW\"]},\"lib/forge-std/src/interfaces/IMulticall3.sol\":{\"keccak256\":\"0x7aac1389150499a922d1f9ef5749c908cef127cb2075b92fa17e9cb611263d0a\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://d95ebb7c7c463e08ebc12dab639945752fb2480acfc6e86da32f72732a7fd0c0\",\"dweb:/ipfs/QmNXK8P8oPWwajsQHvAHw3JPyQidPLCGQN3hWu1Lk6PBL2\"]}},\"version\":1}",
   "metadata": {
     "compiler": {
       "version": "0.8.13+commit.abaa5c0e"
@@ -57,10 +57,10 @@
         "license": "MIT"
       },
       "lib/forge-std/src/Vm.sol": {
-        "keccak256": "0xb569d0b4398fad95f508fb854e832143edf69a897af4250f5f60fe195a2066c5",
+        "keccak256": "0x0cb3f85f3c1927ef347024565bfa008a893d2cfec02ac3a3b69da60b7873055f",
         "urls": [
-          "bzz-raw://84b722ada97ea7bb841cdc0fa556aa36a02ff2d380fa24f6dc0717a71c6d9c7c",
-          "dweb:/ipfs/QmfCH9Q4tvJhPM286GFsE4UCP4YncLpRu4Nwa2ZkHdRfbw"
+          "bzz-raw://46f13a70441c2f82a87c46cc310cb5ff9d43858ed01ec160c4ca446d813141bd",
+          "dweb:/ipfs/QmYowvnVsaKzpDzNxFLjpUcRK7tLKaxFicqWK2jE4X7VaW"
         ],
         "license": "MIT"
       },
@@ -80,13 +80,13 @@
     "id": 11848,
     "exportedSymbols": {
       "IMulticall3": [
-        29777
+        29784
       ],
       "StdUtils": [
         11847
       ],
       "VmSafe": [
-        12953
+        12960
       ]
     },
     "nodeType": "SourceUnit",
@@ -126,7 +126,7 @@
         "file": "./interfaces/IMulticall3.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 11848,
-        "sourceUnit": 29778,
+        "sourceUnit": 29785,
         "symbolAliases": [
           {
             "foreign": {
@@ -134,7 +134,7 @@
               "name": "IMulticall3",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 29777,
+              "referencedDeclaration": 29784,
               "src": "108:11:11",
               "typeDescriptions": {}
             },
@@ -152,7 +152,7 @@
         "file": "./Vm.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 11848,
-        "sourceUnit": 13426,
+        "sourceUnit": 13433,
         "symbolAliases": [
           {
             "foreign": {
@@ -160,7 +160,7 @@
               "name": "VmSafe",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 12953,
+              "referencedDeclaration": 12960,
               "src": "166:6:11",
               "typeDescriptions": {}
             },
@@ -187,7 +187,7 @@
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_contract$_IMulticall3_$29777",
+              "typeIdentifier": "t_contract$_IMulticall3_$29784",
               "typeString": "contract IMulticall3"
             },
             "typeName": {
@@ -197,13 +197,13 @@
                 "id": 11007,
                 "name": "IMulticall3",
                 "nodeType": "IdentifierPath",
-                "referencedDeclaration": 29777,
+                "referencedDeclaration": 29784,
                 "src": "435:11:11"
               },
-              "referencedDeclaration": 29777,
+              "referencedDeclaration": 29784,
               "src": "435:11:11",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_IMulticall3_$29777",
+                "typeIdentifier": "t_contract$_IMulticall3_$29784",
                 "typeString": "contract IMulticall3"
               }
             },
@@ -237,10 +237,10 @@
                 "name": "IMulticall3",
                 "nodeType": "Identifier",
                 "overloadedDeclarations": [],
-                "referencedDeclaration": 29777,
+                "referencedDeclaration": 29784,
                 "src": "476:11:11",
                 "typeDescriptions": {
-                  "typeIdentifier": "t_type$_t_contract$_IMulticall3_$29777_$",
+                  "typeIdentifier": "t_type$_t_contract$_IMulticall3_$29784_$",
                   "typeString": "type(contract IMulticall3)"
                 }
               },
@@ -255,7 +255,7 @@
               "src": "476:55:11",
               "tryCall": false,
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_IMulticall3_$29777",
+                "typeIdentifier": "t_contract$_IMulticall3_$29784",
                 "typeString": "contract IMulticall3"
               }
             },
@@ -274,7 +274,7 @@
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_contract$_VmSafe_$12953",
+              "typeIdentifier": "t_contract$_VmSafe_$12960",
               "typeString": "contract VmSafe"
             },
             "typeName": {
@@ -284,13 +284,13 @@
                 "id": 11013,
                 "name": "VmSafe",
                 "nodeType": "IdentifierPath",
-                "referencedDeclaration": 12953,
+                "referencedDeclaration": 12960,
                 "src": "537:6:11"
               },
-              "referencedDeclaration": 12953,
+              "referencedDeclaration": 12960,
               "src": "537:6:11",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_VmSafe_$12953",
+                "typeIdentifier": "t_contract$_VmSafe_$12960",
                 "typeString": "contract VmSafe"
               }
             },
@@ -492,10 +492,10 @@
                 "name": "VmSafe",
                 "nodeType": "Identifier",
                 "overloadedDeclarations": [],
-                "referencedDeclaration": 12953,
+                "referencedDeclaration": 12960,
                 "src": "566:6:11",
                 "typeDescriptions": {
-                  "typeIdentifier": "t_type$_t_contract$_VmSafe_$12953_$",
+                  "typeIdentifier": "t_type$_t_contract$_VmSafe_$12960_$",
                   "typeString": "type(contract VmSafe)"
                 }
               },
@@ -510,7 +510,7 @@
               "src": "566:63:11",
               "tryCall": false,
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_VmSafe_$12953",
+                "typeIdentifier": "t_contract$_VmSafe_$12960",
                 "typeString": "contract VmSafe"
               }
             },
@@ -4677,7 +4677,7 @@
                             "referencedDeclaration": 11029,
                             "src": "4334:2:11",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_VmSafe_$12953",
+                              "typeIdentifier": "t_contract$_VmSafe_$12960",
                               "typeString": "contract VmSafe"
                             }
                           },
@@ -4688,7 +4688,7 @@
                           "lValueRequested": false,
                           "memberName": "toString",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 12502,
+                          "referencedDeclaration": 12509,
                           "src": "4334:11:11",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_external_pure$_t_int256_$returns$_t_string_memory_ptr_$",
@@ -9737,7 +9737,7 @@
                       "stateVariable": false,
                       "storageLocation": "memory",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_array$_t_struct$_Call_$29622_memory_ptr_$dyn_memory_ptr",
+                        "typeIdentifier": "t_array$_t_struct$_Call_$29629_memory_ptr_$dyn_memory_ptr",
                         "typeString": "struct IMulticall3.Call[]"
                       },
                       "typeName": {
@@ -9748,13 +9748,13 @@
                             "id": 11692,
                             "name": "IMulticall3.Call",
                             "nodeType": "IdentifierPath",
-                            "referencedDeclaration": 29622,
+                            "referencedDeclaration": 29629,
                             "src": "8964:16:11"
                           },
-                          "referencedDeclaration": 29622,
+                          "referencedDeclaration": 29629,
                           "src": "8964:16:11",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_Call_$29622_storage_ptr",
+                            "typeIdentifier": "t_struct$_Call_$29629_storage_ptr",
                             "typeString": "struct IMulticall3.Call"
                           }
                         },
@@ -9762,7 +9762,7 @@
                         "nodeType": "ArrayTypeName",
                         "src": "8964:18:11",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_array$_t_struct$_Call_$29622_storage_$dyn_storage_ptr",
+                          "typeIdentifier": "t_array$_t_struct$_Call_$29629_storage_$dyn_storage_ptr",
                           "typeString": "struct IMulticall3.Call[]"
                         }
                       },
@@ -9800,7 +9800,7 @@
                       "nodeType": "NewExpression",
                       "src": "8998:22:11",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_objectcreation_pure$_t_uint256_$returns$_t_array$_t_struct$_Call_$29622_memory_ptr_$dyn_memory_ptr_$",
+                        "typeIdentifier": "t_function_objectcreation_pure$_t_uint256_$returns$_t_array$_t_struct$_Call_$29629_memory_ptr_$dyn_memory_ptr_$",
                         "typeString": "function (uint256) pure returns (struct IMulticall3.Call memory[] memory)"
                       },
                       "typeName": {
@@ -9811,13 +9811,13 @@
                             "id": 11696,
                             "name": "IMulticall3.Call",
                             "nodeType": "IdentifierPath",
-                            "referencedDeclaration": 29622,
+                            "referencedDeclaration": 29629,
                             "src": "9002:16:11"
                           },
-                          "referencedDeclaration": 29622,
+                          "referencedDeclaration": 29629,
                           "src": "9002:16:11",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_Call_$29622_storage_ptr",
+                            "typeIdentifier": "t_struct$_Call_$29629_storage_ptr",
                             "typeString": "struct IMulticall3.Call"
                           }
                         },
@@ -9825,7 +9825,7 @@
                         "nodeType": "ArrayTypeName",
                         "src": "9002:18:11",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_array$_t_struct$_Call_$29622_storage_$dyn_storage_ptr",
+                          "typeIdentifier": "t_array$_t_struct$_Call_$29629_storage_$dyn_storage_ptr",
                           "typeString": "struct IMulticall3.Call[]"
                         }
                       }
@@ -9841,7 +9841,7 @@
                     "src": "8998:30:11",
                     "tryCall": false,
                     "typeDescriptions": {
-                      "typeIdentifier": "t_array$_t_struct$_Call_$29622_memory_ptr_$dyn_memory_ptr",
+                      "typeIdentifier": "t_array$_t_struct$_Call_$29629_memory_ptr_$dyn_memory_ptr",
                       "typeString": "struct IMulticall3.Call memory[] memory"
                     }
                   },
@@ -9870,7 +9870,7 @@
                               "referencedDeclaration": 11695,
                               "src": "9147:5:11",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_array$_t_struct$_Call_$29622_memory_ptr_$dyn_memory_ptr",
+                                "typeIdentifier": "t_array$_t_struct$_Call_$29629_memory_ptr_$dyn_memory_ptr",
                                 "typeString": "struct IMulticall3.Call memory[] memory"
                               }
                             },
@@ -9894,7 +9894,7 @@
                             "nodeType": "IndexAccess",
                             "src": "9147:8:11",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_struct$_Call_$29622_memory_ptr",
+                              "typeIdentifier": "t_struct$_Call_$29629_memory_ptr",
                               "typeString": "struct IMulticall3.Call memory"
                             }
                           },
@@ -10054,10 +10054,10 @@
                                 "name": "IMulticall3",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 29777,
+                                "referencedDeclaration": 29784,
                                 "src": "9158:11:11",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_type$_t_contract$_IMulticall3_$29777_$",
+                                  "typeIdentifier": "t_type$_t_contract$_IMulticall3_$29784_$",
                                   "typeString": "type(contract IMulticall3)"
                                 }
                               },
@@ -10068,10 +10068,10 @@
                               "lValueRequested": false,
                               "memberName": "Call",
                               "nodeType": "MemberAccess",
-                              "referencedDeclaration": 29622,
+                              "referencedDeclaration": 29629,
                               "src": "9158:16:11",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_type$_t_struct$_Call_$29622_storage_ptr_$",
+                                "typeIdentifier": "t_type$_t_struct$_Call_$29629_storage_ptr_$",
                                 "typeString": "type(struct IMulticall3.Call storage pointer)"
                               }
                             },
@@ -10089,13 +10089,13 @@
                             "src": "9158:95:11",
                             "tryCall": false,
                             "typeDescriptions": {
-                              "typeIdentifier": "t_struct$_Call_$29622_memory_ptr",
+                              "typeIdentifier": "t_struct$_Call_$29629_memory_ptr",
                               "typeString": "struct IMulticall3.Call memory"
                             }
                           },
                           "src": "9147:106:11",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_Call_$29622_memory_ptr",
+                            "typeIdentifier": "t_struct$_Call_$29629_memory_ptr",
                             "typeString": "struct IMulticall3.Call memory"
                           }
                         },
@@ -10291,7 +10291,7 @@
                         "referencedDeclaration": 11695,
                         "src": "9362:5:11",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_array$_t_struct$_Call_$29622_memory_ptr_$dyn_memory_ptr",
+                          "typeIdentifier": "t_array$_t_struct$_Call_$29629_memory_ptr_$dyn_memory_ptr",
                           "typeString": "struct IMulticall3.Call memory[] memory"
                         }
                       }
@@ -10299,7 +10299,7 @@
                     "expression": {
                       "argumentTypes": [
                         {
-                          "typeIdentifier": "t_array$_t_struct$_Call_$29622_memory_ptr_$dyn_memory_ptr",
+                          "typeIdentifier": "t_array$_t_struct$_Call_$29629_memory_ptr_$dyn_memory_ptr",
                           "typeString": "struct IMulticall3.Call memory[] memory"
                         }
                       ],
@@ -10311,7 +10311,7 @@
                         "referencedDeclaration": 11012,
                         "src": "9342:9:11",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_IMulticall3_$29777",
+                          "typeIdentifier": "t_contract$_IMulticall3_$29784",
                           "typeString": "contract IMulticall3"
                         }
                       },
@@ -10322,10 +10322,10 @@
                       "lValueRequested": false,
                       "memberName": "aggregate",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 29655,
+                      "referencedDeclaration": 29662,
                       "src": "9342:19:11",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_external_payable$_t_array$_t_struct$_Call_$29622_memory_ptr_$dyn_memory_ptr_$returns$_t_uint256_$_t_array$_t_bytes_memory_ptr_$dyn_memory_ptr_$",
+                        "typeIdentifier": "t_function_external_payable$_t_array$_t_struct$_Call_$29629_memory_ptr_$dyn_memory_ptr_$returns$_t_uint256_$_t_array$_t_bytes_memory_ptr_$dyn_memory_ptr_$",
                         "typeString": "function (struct IMulticall3.Call memory[] memory) payable external returns (uint256,bytes memory[] memory)"
                       }
                     },

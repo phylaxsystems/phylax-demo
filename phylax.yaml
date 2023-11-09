@@ -6,7 +6,7 @@ api:
 alerts:
   - name: protocol-alert
     on:
-      - rule: 'type == "new_block"'
+      - rule: 'origin == hash "sepolia"'
         interval: 1
     foundryProjectRootPath: ./alerts
 watchers:
@@ -22,12 +22,11 @@ actions:
     contractFilename: KillProtocol.s.sol
     wallet: 0x0a0ac2ddf4f164d151f048c4d23bead4444de206e738ee0bb664b4678ae13362
     foundryProjectRootPath: ./actions/kill-protocol
-  - name: simple-webhook
-    exposed: true
+  - name: slack-webhook
     on:
       - rule: "type == \"alert_execution\" && alert_state == \"on\""
         interval: 1
-    target: "https://api.telegram.org/bot6350756658:AAFOYiS7DePRv0lAvhc0t1T1Oz1GMIJUPeY/sendMessage?chat_id=1699667821&text=alert%20is%20firing"
-    payload: '{"foo": "bar", "bar": 1}'
-    method: GET
-    authentication: None
+    target: "https://discord.com/api/webhooks/1169329385053106346/Kf-RmCkM6HcstkVHkCti80oQThW7Qt6vwGhdVxOXKdVXDmjfN4xb_3ae8mOfWuA7cbZj"
+    platform: discord
+    title: "Validator Collateral check"
+    description: "Thi is a test kkkafadfasdsfadffkjssfsfw"
